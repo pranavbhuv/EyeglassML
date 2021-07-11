@@ -25,7 +25,7 @@ class DetailViewController: UIViewController {
         graphics()
         
         Wikipedia.sharedFormattingDelegate = MyFormattingDelegate.shared
-        WikipediaNetworking.appAuthorEmailForAPI = "pranavbhuv@gmail.com"
+        WikipediaNetworking.appAuthorEmailForAPI = "satdailyapp@gmail.com"
         
         let language = WikipediaLanguage("en")
 
@@ -76,7 +76,6 @@ class MyFormattingDelegate: WikipediaTextFormattingDelegate {
     static let shared = MyFormattingDelegate()
 
     func format(context: WikipediaTextFormattingDelegateContext, rawText: String, title: String?, language: WikipediaLanguage, isHTML: Bool) -> String {
-        // Do the formatting! But don’t actually use this regex method to strip HTML tags. 🤪
         let formattedText = rawText.replacingOccurrences(of: "<[^>]+>", with: "", options: String.CompareOptions.regularExpression)
         return formattedText
     }
