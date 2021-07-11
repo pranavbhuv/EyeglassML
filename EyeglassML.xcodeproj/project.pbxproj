@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C7D2FD7269A060300674807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D2FD5269A060300674807 /* Main.storyboard */; };
+		8C7D2FD9269A060600674807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D2FD8269A060600674807 /* Assets.xcassets */; };
+		8C7D2FDC269A060600674807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D2FDA269A060600674807 /* LaunchScreen.storyboard */; };
+		8C7D2FEB269A0B8500674807 /* alpha.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C7D2FEA269A0B8500674807 /* alpha.jpeg */; };
+		8C7D2FF2269A31A500674807 /* WikipediaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8C7D2FF1269A31A500674807 /* WikipediaKit */; };
+		8C7D2FFD269A873C00674807 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D2FEC269A2F8D00674807 /* HomeViewController.swift */; };
+		8C7D2FFE269A873C00674807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D2FD3269A060300674807 /* ViewController.swift */; };
+		8C7D2FFF269A873C00674807 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D2FEE269A311B00674807 /* DetailViewController.swift */; };
+		8C7D3000269A873C00674807 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D2FF7269A832100674807 /* AboutViewController.swift */; };
+		8C7D3001269A873C00674807 /* MobileNetV2FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D2FE6269A08BF00674807 /* MobileNetV2FP16.mlmodel */; };
+		8C7D3002269A873C00674807 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D2FE8269A08C600674807 /* SqueezeNet.mlmodel */; };
+		8C7D3003269A873C00674807 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D2FD1269A060300674807 /* SceneDelegate.swift */; };
+		8C7D3004269A873C00674807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7D2FCF269A060300674807 /* AppDelegate.swift */; };
+		CD4354D24502E2D94F768C17 /* Pods_EyeglassML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11129674DA8B94D2C9238D9E /* Pods_EyeglassML.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11129674DA8B94D2C9238D9E /* Pods_EyeglassML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeglassML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7D2FCC269A060300674807 /* EyeglassML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeglassML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7D2FCF269A060300674807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C7D2FD1269A060300674807 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C7D2FD3269A060300674807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C7D2FD6269A060300674807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C7D2FD8269A060600674807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C7D2FDB269A060600674807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C7D2FDD269A060600674807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C7D2FE6269A08BF00674807 /* MobileNetV2FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2FP16.mlmodel; sourceTree = "<group>"; };
+		8C7D2FE8269A08C600674807 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		8C7D2FEA269A0B8500674807 /* alpha.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alpha.jpeg; sourceTree = "<group>"; };
+		8C7D2FEC269A2F8D00674807 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8C7D2FEE269A311B00674807 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8C7D2FF7269A832100674807 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		B6575C07518EA1777A9B5D72 /* Pods-EyeglassML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeglassML.debug.xcconfig"; path = "Target Support Files/Pods-EyeglassML/Pods-EyeglassML.debug.xcconfig"; sourceTree = "<group>"; };
+		FA000D3DE465456A1621D7EA /* Pods-EyeglassML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeglassML.release.xcconfig"; path = "Target Support Files/Pods-EyeglassML/Pods-EyeglassML.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C7D2FC9269A060300674807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7D2FF2269A31A500674807 /* WikipediaKit in Frameworks */,
+				CD4354D24502E2D94F768C17 /* Pods_EyeglassML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C7D2FC3269A060300674807 = {
+			isa = PBXGroup;
+			children = (
+				8C7D2FCE269A060300674807 /* EyeglassML */,
+				8C7D2FCD269A060300674807 /* Products */,
+				BF949E6118CFE6E4B17CA01E /* Pods */,
+				B133ABFAB19A29406130E938 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C7D2FCD269A060300674807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C7D2FCC269A060300674807 /* EyeglassML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C7D2FCE269A060300674807 /* EyeglassML */ = {
+			isa = PBXGroup;
+			children = (
+				8C7D2FDD269A060600674807 /* Info.plist */,
+				8C7D2FD5269A060300674807 /* Main.storyboard */,
+				8C7D2FDA269A060600674807 /* LaunchScreen.storyboard */,
+				8C7D2FF5269A81E700674807 /* Views */,
+				8C7D2FE3269A081200674807 /* MLModels */,
+				8C7D2FF6269A820000674807 /* Etcetera */,
+			);
+			path = EyeglassML;
+			sourceTree = "<group>";
+		};
+		8C7D2FE3269A081200674807 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C7D2FE6269A08BF00674807 /* MobileNetV2FP16.mlmodel */,
+				8C7D2FE8269A08C600674807 /* SqueezeNet.mlmodel */,
+			);
+			path = MLModels;
+			sourceTree = "<group>";
+		};
+		8C7D2FF5269A81E700674807 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C7D2FEC269A2F8D00674807 /* HomeViewController.swift */,
+				8C7D2FD3269A060300674807 /* ViewController.swift */,
+				8C7D2FEE269A311B00674807 /* DetailViewController.swift */,
+				8C7D2FF7269A832100674807 /* AboutViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C7D2FF6269A820000674807 /* Etcetera */ = {
+			isa = PBXGroup;
+			children = (
+				8C7D2FD1269A060300674807 /* SceneDelegate.swift */,
+				8C7D2FCF269A060300674807 /* AppDelegate.swift */,
+				8C7D2FD8269A060600674807 /* Assets.xcassets */,
+				8C7D2FEA269A0B8500674807 /* alpha.jpeg */,
+			);
+			path = Etcetera;
+			sourceTree = "<group>";
+		};
+		B133ABFAB19A29406130E938 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11129674DA8B94D2C9238D9E /* Pods_EyeglassML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF949E6118CFE6E4B17CA01E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6575C07518EA1777A9B5D72 /* Pods-EyeglassML.debug.xcconfig */,
+				FA000D3DE465456A1621D7EA /* Pods-EyeglassML.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C7D2FCB269A060300674807 /* EyeglassML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7D2FE0269A060600674807 /* Build configuration list for PBXNativeTarget "EyeglassML" */;
+			buildPhases = (
+				35B4CBD408E7A5161DFF6396 /* [CP] Check Pods Manifest.lock */,
+				8C7D2FC8269A060300674807 /* Sources */,
+				8C7D2FC9269A060300674807 /* Frameworks */,
+				8C7D2FCA269A060300674807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyeglassML;
+			packageProductDependencies = (
+				8C7D2FF1269A31A500674807 /* WikipediaKit */,
+			);
+			productName = RecycleML;
+			productReference = 8C7D2FCC269A060300674807 /* EyeglassML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C7D2FC4269A060300674807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8C7D2FCB269A060300674807 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 8C7D2FC7269A060300674807 /* Build configuration list for PBXProject "EyeglassML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C7D2FC3269A060300674807;
+			packageReferences = (
+				8C7D2FF0269A31A500674807 /* XCRemoteSwiftPackageReference "WikipediaKit" */,
+			);
+			productRefGroup = 8C7D2FCD269A060300674807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C7D2FCB269A060300674807 /* EyeglassML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C7D2FCA269A060300674807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7D2FEB269A0B8500674807 /* alpha.jpeg in Resources */,
+				8C7D2FDC269A060600674807 /* LaunchScreen.storyboard in Resources */,
+				8C7D2FD9269A060600674807 /* Assets.xcassets in Resources */,
+				8C7D2FD7269A060300674807 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B4CBD408E7A5161DFF6396 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeglassML-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C7D2FC8269A060300674807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7D2FFD269A873C00674807 /* HomeViewController.swift in Sources */,
+				8C7D2FFE269A873C00674807 /* ViewController.swift in Sources */,
+				8C7D2FFF269A873C00674807 /* DetailViewController.swift in Sources */,
+				8C7D3000269A873C00674807 /* AboutViewController.swift in Sources */,
+				8C7D3001269A873C00674807 /* MobileNetV2FP16.mlmodel in Sources */,
+				8C7D3002269A873C00674807 /* SqueezeNet.mlmodel in Sources */,
+				8C7D3003269A873C00674807 /* SceneDelegate.swift in Sources */,
+				8C7D3004269A873C00674807 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C7D2FD5269A060300674807 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C7D2FD6269A060300674807 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C7D2FDA269A060600674807 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C7D2FDB269A060600674807 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C7D2FDE269A060600674807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C7D2FDF269A060600674807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C7D2FE1269A060600674807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6575C07518EA1777A9B5D72 /* Pods-EyeglassML.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM3927C7B5;
+				INFOPLIST_FILE = EyeglassML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = pranavbhuvanagiri.recycle.EyeglassML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C7D2FE2269A060600674807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA000D3DE465456A1621D7EA /* Pods-EyeglassML.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM3927C7B5;
+				INFOPLIST_FILE = EyeglassML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = pranavbhuvanagiri.recycle.EyeglassML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C7D2FC7269A060300674807 /* Build configuration list for PBXProject "EyeglassML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7D2FDE269A060600674807 /* Debug */,
+				8C7D2FDF269A060600674807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7D2FE0269A060600674807 /* Build configuration list for PBXNativeTarget "EyeglassML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7D2FE1269A060600674807 /* Debug */,
+				8C7D2FE2269A060600674807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C7D2FF0269A31A500674807 /* XCRemoteSwiftPackageReference "WikipediaKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Raureif/WikipediaKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C7D2FF1269A31A500674807 /* WikipediaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C7D2FF0269A31A500674807 /* XCRemoteSwiftPackageReference "WikipediaKit" */;
+			productName = WikipediaKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8C7D2FC4269A060300674807 /* Project object */;
+}
